@@ -13,7 +13,7 @@ public class PilhaSimples {
             System.out.println("Elemento inválido.");
         } else if (this.estaCheia()) {
             System.out.println("A pilha está cheia.");
-        } else { // exceção elemento nulo
+        } else {
             topo++;
             this.pilha[topo] = elemento;
             System.out.println("O elemento " + elemento + " foi empilhado.");
