@@ -1,6 +1,5 @@
 public class PilhaSimples {
     String[] pilha;
-    int tamanho;
     int topo = -1;
 
     public PilhaSimples(int tamanho){
